@@ -219,3 +219,40 @@ font-weight: 400;
     }
 }
 /* trusted by end */
+
+/* services section */
+
+.services-section h6 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services-cards {
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service-card {
+    min-width: 350px;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left:0;
+
+}
+
+
+
+.services-section h1 {
+    text-align: center;
+}
+
+@media(max-width:826px) {
+
+}
